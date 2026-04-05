@@ -2,13 +2,6 @@
 
 import { useEffect } from "react";
 
-declare global {
-  interface Window {
-    dataLayer: unknown[];
-    gtag: Function;
-  }
-}
-
 export default function AutoTracker() {
   useEffect(() => {
     function getPageName(): string {

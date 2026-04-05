@@ -2,12 +2,6 @@
 
 import React from 'react';
 
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void;
-  }
-}
-
 interface TrackLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   event: string;
   category: string;

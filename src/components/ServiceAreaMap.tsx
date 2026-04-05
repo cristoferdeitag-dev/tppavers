@@ -3,14 +3,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { MapPin } from 'lucide-react';
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
-declare global {
-  interface Window {
-    google?: any;
-    initMap?: () => void;
-  }
-}
-
 interface CityInfo {
   name: string;
   slug: string;
