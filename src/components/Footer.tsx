@@ -62,7 +62,7 @@ export default function Footer() {
 
       <div className="border-t border-slate-500 text-center py-5 mt-5">
         <p className="text-[0.85rem] text-white/60">
-          &copy; 2024 TP Pavers. All rights reserved. Licensed &amp; Insured.
+          &copy; 2026 TP Pavers. All rights reserved. Licensed &amp; Insured.
         </p>
       </div>
     </footer>
